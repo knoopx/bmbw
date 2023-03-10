@@ -1,0 +1,17 @@
+[browser]
+gatherUsageStats = false
+
+[runner]
+magicEnabled = false
+
+# Install a Python tracer to allow you to stop or pause your script at any point and introspect it. As a side-effect, this slows down your script's execution.
+# Default: false
+installTracer = false
+
+# Run the Python Garbage Collector after each script execution. This can help avoid excess memory use in Streamlit apps, but could introduce delay in rerunning the app script for high-memory-use applications.
+# Default: true
+postScriptGC = true
+
+[server]
+headless = true
+enableWebsocketCompression = true

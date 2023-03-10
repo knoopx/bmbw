@@ -1,8 +1,11 @@
 click
-clip
+open_clip_torch
 Pillow
 PyYAML
 safetensors
 torch
 tqdm
 bayesian-optimization
+streamlit
+stqdm
+dacite

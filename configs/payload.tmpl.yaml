@@ -1,0 +1,19 @@
+scorers:
+  - SacLogosAva1
+  - CafeAesthetic
+  - CafeStyle
+  - CafeWaifu
+
+modules:
+  - unet
+  - text_encoder
+
+guidance_scale: 7
+num_inference_steps: 30
+width: 512
+height: 512
+
+prompts:
+  - prompt: "your prompt"
+    negative_prompt: "your negative prompt"
+    seed: 12345 # optional
